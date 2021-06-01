@@ -1,25 +1,25 @@
 {
   "Error-codes": [
     {
-      "error-code": 300,
+      "error-code": "300",
       "image": "https://www.rd.com/wp-content/uploads/2018/06/16_BonnieWest_BBam18_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Multiple Choices"
     },
 
     {
-      "error-code": 416,
+      "error-code": "416",
       "image": "https://www.rd.com/wp-content/uploads/2018/06/17_SusanHughes_BBXnov17_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Request Range Not Satisfiable"
     },
 
     {
-      "error-code": 506,
+      "error-code": "506",
       "image": "https://www.rd.com/wp-content/uploads/2018/06/17_AnitaStevens_BBXjul18_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Variant Also Negotiates"
     },
 
     {
-      "error-code": 510,
+      "error-code": "510",
       "image": "https://www.rd.com/wp-content/uploads/2018/06/NancyUggla_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Not Extended"
     }
