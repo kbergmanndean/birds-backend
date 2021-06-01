@@ -1,32 +1,61 @@
 {
   "Error-codes": [
-    {
-      "id": 1,
-      "error-code": "300",
-      "image": "https://www.rd.com/wp-content/uploads/2018/06/16_BonnieWest_BBam18_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
-      "error-short-description": "Multiple Choices",
-      "error-long-description": "This is a random sentence"
+    {"id": 1,
+      "error-code": "202",
+      "image": "https://www.top13.net/wp-content/uploads/2020/08/funny-bird-pictures-15.jpg",
+      "error-short-description": "Accepted",
+      "error-long-description":"The HyperText Transfer Protocol (HTTP) 202 Accepted response status code indicates that the request has been accepted for processing, but the processing has not been completed; in fact, processing may not have started yet. The request might or might not eventually be acted upon, as it might be disallowed when processing actually takes place."
     },
     {
       "id": 2,
+      "error-code": "300",
+      "image": "https://www.rd.com/wp-content/uploads/2018/06/16_BonnieWest_BBam18_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
+      "error-short-description": "Multiple Choices",
+      "error-long-description": "The HTTP 300 Multiple Choices redirect status response code indicates that the request has more than one possible responses. The user-agent or the user should choose one of them. As there is no standardized way of choosing one of the responses, this response code is very rarely used.(MDN)"
+    },
+    {
+      "id":3,
+      "error-code": "400",
+      "image": "https://www.rd.com/wp-content/uploads/2018/06/17_MikeCastelli_BBXjuly17.jpg_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
+      "error-short-description": "Bad Request",
+      "error-long-description": "The HyperText Transfer Protocol (HTTP) 400 Bad Request response status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).(MDN)"
+    },
+    {
+      "id":4,
+      "error-code": "401",
+      "image": "https://www.top13.net/wp-content/uploads/2020/08/funny-bird-pictures-14.jpg",
+      "error-short-description": "Unauthorized",
+      "error-long-description": "The HTTP 401 Unauthorized client error status response code indicates that the request has not been applied because it lacks valid authentication credentials for the target resource."
+
+    },
+    {
+      "id":5,
+      "error-code": "409",
+      "image": "https://static.boredpanda.com/blog/wp-content/uploads/2020/06/5ef342ef23064_kgxnk8axfx841__700.jpg",
+      "error-short-description": "Conflict",
+      "error-long-description": "The HTTP 409 Conflict response status code indicates a request conflict with current state of the target resource. Conflicts are most likely to occur in response to a PUT request. For example, you may get a 409 response when uploading a file which is older than the one already on the server resulting in a version control conflict.(MDN)"
+    },
+    {
+      "id": 6,
       "error-code": "416",
       "image": "https://www.rd.com/wp-content/uploads/2018/06/17_SusanHughes_BBXnov17_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Request Range Not Satisfiable",
-      "error-long-description": "This is another random sentence"
+      "error-long-description": "The HyperText Transfer Protocol (HTTP) 416 Range Not Satisfiable error response code indicates that a server cannot serve the requested ranges. The most likely reason is that the document doesn't contain such ranges, or that the Range header value, though syntactically correct, doesn't make sense.(MDN)"
     },
     {
-      "id": 3,
+      "id": 7,
       "error-code": "506",
       "image": "https://www.rd.com/wp-content/uploads/2018/06/17_AnitaStevens_BBXjul18_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Variant Also Negotiates",
-      "error-long-description": "This is yet another random sentence"
+      "error-long-description": "The HyperText Transfer Protocol (HTTP) 506 Variant Also Negotiates response status code may be given in the context of Transparent Content Negotiation (see RFC 2295). This protocol enables a client to retrieve the best variant of a given resource, where the server supports multiple variants. The Variant Also Negotiates status code indicates an internal server configuration error in which the chosen variant is itself configured to engage in content negotiation, so is not a proper negotiation endpoint.(MDN)"
     },
     {
-      "id": 4,
+      "id": 8,
       "error-code": "510",
       "image": "https://www.rd.com/wp-content/uploads/2018/06/NancyUggla_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Not Extended",
-      "error-long-description": "Okay this is the last one"
+      "error-long-description": "The HyperText Transfer Protocol (HTTP)  510 Not Extended response status code is sent in the context of the HTTP Extension Framework, defined in RFC 2774. In that specification a client may send a request that contains an extension declaration, that describes the extension to be used. If the server receives such a request, but any described extensions are not supported for the request, then the server responds with the 510 status code.(MDN)"
     }
+    
   ]
 }
