@@ -5,7 +5,7 @@
       "error-code": "202",
       "image": "https://www.top13.net/wp-content/uploads/2020/08/funny-bird-pictures-15.jpg",
       "error-short-description": "Accepted",
-      "error-long-description": "The HyperText Transfer Protocol (HTTP) 202 Accepted response status code indicates that the request has been accepted for processing, but the processing has not been completed; in fact, processing may not have started yet. The request might or might not eventually be acted upon, as it might be disallowed when processing actually takes place.",
+      "error-long-description": "The HyperText Transfer Protocol (HTTP) 202 Accepted response status code indicates that the request has been accepted for processing, but the processing has not been completed; in fact, processing may not have started yet. The request might or might not eventually be acted upon, as it might be disallowed when processing actually takes place.(MDN)",
       "error-likes": 14
     },
     {
@@ -22,14 +22,14 @@
       "image": "https://www.rd.com/wp-content/uploads/2018/06/17_MikeCastelli_BBXjuly17.jpg_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Bad Request",
       "error-long-description": "The HyperText Transfer Protocol (HTTP) 400 Bad Request response status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).(MDN)",
-      "error-likes": 0
+      "error-likes": 1
     },
     {
       "id": 4,
       "error-code": "401",
       "image": "https://www.top13.net/wp-content/uploads/2020/08/funny-bird-pictures-14.jpg",
       "error-short-description": "Unauthorized",
-      "error-long-description": "The HTTP 401 Unauthorized client error status response code indicates that the request has not been applied because it lacks valid authentication credentials for the target resource.",
+      "error-long-description": "The HTTP 401 Unauthorized client error status response code indicates that the request has not been applied because it lacks valid authentication credentials for the target resource.(MDN)",
       "error-likes": 1
     },
     {
@@ -38,7 +38,7 @@
       "image": "https://static.boredpanda.com/blog/wp-content/uploads/2020/06/5ef342ef23064_kgxnk8axfx841__700.jpg",
       "error-short-description": "Conflict",
       "error-long-description": "The HTTP 409 Conflict response status code indicates a request conflict with current state of the target resource. Conflicts are most likely to occur in response to a PUT request. For example, you may get a 409 response when uploading a file which is older than the one already on the server resulting in a version control conflict.(MDN)",
-      "error-likes": 0
+      "error-likes": 2
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "image": "https://www.rd.com/wp-content/uploads/2018/06/17_SusanHughes_BBXnov17_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Request Range Not Satisfiable",
       "error-long-description": "The HyperText Transfer Protocol (HTTP) 416 Range Not Satisfiable error response code indicates that a server cannot serve the requested ranges. The most likely reason is that the document doesn't contain such ranges, or that the Range header value, though syntactically correct, doesn't make sense.(MDN)",
-      "error-likes": 0
+      "error-likes": 1
     },
     {
       "id": 7,
@@ -62,7 +62,7 @@
       "image": "https://www.rd.com/wp-content/uploads/2018/06/NancyUggla_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Not Extended",
       "error-long-description": "The HyperText Transfer Protocol (HTTP)  510 Not Extended response status code is sent in the context of the HTTP Extension Framework, defined in RFC 2774. In that specification a client may send a request that contains an extension declaration, that describes the extension to be used. If the server receives such a request, but any described extensions are not supported for the request, then the server responds with the 510 status code.(MDN)",
-      "error-likes": 0
+      "error-likes": 1
     }
   ]
 }
