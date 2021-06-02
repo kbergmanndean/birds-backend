@@ -9,7 +9,15 @@
       "error-likes": 14
     },
     {
-      "id": 2,
+      "error-code": "207",
+      "image": "https://static.boredpanda.com/blog/wp-content/uploads/2019/05/funny-bird-snapchats-205-5cd4157a989bf__700.jpg",
+      "error-short-description": "Multi-Status",
+      "error-long-description": "A Multi-Status response conveys information about multiple resources in situations where multiple status codes might be appropriate.(httpstatuses.com)",
+      "error-likes": 0,
+      "id": 2
+    },
+    {
+      "id": 3,
       "error-code": "300",
       "image": "https://www.rd.com/wp-content/uploads/2018/06/16_BonnieWest_BBam18_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Multiple Choices",
@@ -17,7 +25,15 @@
       "error-likes": 7
     },
     {
-      "id": 3,
+      "error-code": "301",
+      "image": "https://static.boredpanda.com/blog/wp-content/uploads/2019/05/snapchat_template-5cd2d0fa7ba06__700.jpg",
+      "error-short-description": "Moved Permanently",
+      "error-long-description": "The HyperText Transfer Protocol (HTTP) 301 Moved Permanently redirect status response code indicates that the resource requested has been definitively moved to the URL given by the Location headers. A browser redirects to this page and search engines update their links to the resource (in 'SEO-speak', it is said that the 'link-juice' is sent to the new URL).(MDN)",
+      "error-likes": 0,
+      "id": 4
+    },
+    {
+      "id": 5,
       "error-code": "400",
       "image": "https://www.rd.com/wp-content/uploads/2018/06/17_MikeCastelli_BBXjuly17.jpg_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Bad Request",
@@ -25,7 +41,7 @@
       "error-likes": 1
     },
     {
-      "id": 4,
+      "id": 6,
       "error-code": "401",
       "image": "https://www.top13.net/wp-content/uploads/2020/08/funny-bird-pictures-14.jpg",
       "error-short-description": "Unauthorized",
@@ -33,7 +49,15 @@
       "error-likes": 1
     },
     {
-      "id": 5,
+      "error-code": "405",
+      "image": "https://static.boredpanda.com/blog/wp-content/uploads/2019/05/15-5cd2cb47d0563__700.jpg",
+      "error-short-description": "Method Not Allowed",
+      "error-long-description": "The HyperText Transfer Protocol (HTTP) 405 Method Not Allowed response status code indicates that the request method is known by the server but is not supported by the target resource.  The server MUST generate an Allow header field in a 405 response containing a list of the target resource's currently supported methods.(MDN)",
+      "error-likes": 0,
+      "id": 7
+    },
+    {
+      "id": 8,
       "error-code": "409",
       "image": "https://static.boredpanda.com/blog/wp-content/uploads/2020/06/5ef342ef23064_kgxnk8axfx841__700.jpg",
       "error-short-description": "Conflict",
@@ -41,7 +65,7 @@
       "error-likes": 2
     },
     {
-      "id": 6,
+      "id": 9,
       "error-code": "416",
       "image": "https://www.rd.com/wp-content/uploads/2018/06/17_SusanHughes_BBXnov17_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Request Range Not Satisfiable",
@@ -49,7 +73,7 @@
       "error-likes": 1
     },
     {
-      "id": 7,
+      "id": 10,
       "error-code": "506",
       "image": "https://www.rd.com/wp-content/uploads/2018/06/17_AnitaStevens_BBXjul18_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Variant Also Negotiates",
@@ -57,12 +81,15 @@
       "error-likes": 1
     },
     {
-      "id": 8,
+      "id": 11,
       "error-code": "510",
       "image": "https://www.rd.com/wp-content/uploads/2018/06/NancyUggla_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Not Extended",
       "error-long-description": "The HyperText Transfer Protocol (HTTP)  510 Not Extended response status code is sent in the context of the HTTP Extension Framework, defined in RFC 2774. In that specification a client may send a request that contains an extension declaration, that describes the extension to be used. If the server receives such a request, but any described extensions are not supported for the request, then the server responds with the 510 status code.(MDN)",
       "error-likes": 1
     }
+    
+    
+  
   ]
 }
