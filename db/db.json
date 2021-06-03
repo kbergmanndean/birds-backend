@@ -6,14 +6,14 @@
       "image": "https://www.top13.net/wp-content/uploads/2020/08/funny-bird-pictures-15.jpg",
       "error-short-description": "Accepted",
       "error-long-description": "The HyperText Transfer Protocol (HTTP) 202 Accepted response status code indicates that the request has been accepted for processing, but the processing has not been completed; in fact, processing may not have started yet. The request might or might not eventually be acted upon, as it might be disallowed when processing actually takes place.(MDN)",
-      "error-likes": 14
+      "error-likes": 16
     },
     {
       "error-code": "207",
       "image": "https://static.boredpanda.com/blog/wp-content/uploads/2019/05/funny-bird-snapchats-205-5cd4157a989bf__700.jpg",
       "error-short-description": "Multi-Status",
       "error-long-description": "A Multi-Status response conveys information about multiple resources in situations where multiple status codes might be appropriate.(httpstatuses.com)",
-      "error-likes": 0,
+      "error-likes": 4,
       "id": 2
     },
     {
@@ -38,7 +38,7 @@
       "image": "https://www.rd.com/wp-content/uploads/2018/06/17_MikeCastelli_BBXjuly17.jpg_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Bad Request",
       "error-long-description": "The HyperText Transfer Protocol (HTTP) 400 Bad Request response status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).(MDN)",
-      "error-likes": 1
+      "error-likes": 2
     },
     {
       "id": 6,
@@ -46,14 +46,14 @@
       "image": "https://www.top13.net/wp-content/uploads/2020/08/funny-bird-pictures-14.jpg",
       "error-short-description": "Unauthorized",
       "error-long-description": "The HTTP 401 Unauthorized client error status response code indicates that the request has not been applied because it lacks valid authentication credentials for the target resource.(MDN)",
-      "error-likes": 1
+      "error-likes": 14
     },
     {
       "error-code": "405",
       "image": "https://static.boredpanda.com/blog/wp-content/uploads/2019/05/15-5cd2cb47d0563__700.jpg",
       "error-short-description": "Method Not Allowed",
       "error-long-description": "The HyperText Transfer Protocol (HTTP) 405 Method Not Allowed response status code indicates that the request method is known by the server but is not supported by the target resource.  The server MUST generate an Allow header field in a 405 response containing a list of the target resource's currently supported methods.(MDN)",
-      "error-likes": 0,
+      "error-likes": 5,
       "id": 7
     },
     {
@@ -78,7 +78,7 @@
       "image": "https://www.rd.com/wp-content/uploads/2018/06/17_AnitaStevens_BBXjul18_preview_maxWidth_1600_maxHeight_1600.jpg?resize=700,466",
       "error-short-description": "Variant Also Negotiates",
       "error-long-description": "The HyperText Transfer Protocol (HTTP) 506 Variant Also Negotiates response status code may be given in the context of Transparent Content Negotiation (see RFC 2295). This protocol enables a client to retrieve the best variant of a given resource, where the server supports multiple variants. The Variant Also Negotiates status code indicates an internal server configuration error in which the chosen variant is itself configured to engage in content negotiation, so is not a proper negotiation endpoint.(MDN)",
-      "error-likes": 1
+      "error-likes": 3
     },
     {
       "id": 11,
@@ -88,8 +88,5 @@
       "error-long-description": "The HyperText Transfer Protocol (HTTP)  510 Not Extended response status code is sent in the context of the HTTP Extension Framework, defined in RFC 2774. In that specification a client may send a request that contains an extension declaration, that describes the extension to be used. If the server receives such a request, but any described extensions are not supported for the request, then the server responds with the 510 status code.(MDN)",
       "error-likes": 1
     }
-    
-    
-  
   ]
 }
